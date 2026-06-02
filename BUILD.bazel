@@ -1,0 +1,6 @@
+package(default_visibility = ["//visibility:public"])
+
+alias(
+    name = "hello_world",
+    actual = "//src:hello_world",
+)
